@@ -19,7 +19,7 @@ namespace OpenXmlDemo
     internal class DocumentCreationSample
     {
         /// <summary>
-        /// Erzeugt ein leeres Dokument mit dem Inhalt "Hallo Welt"
+        /// Creates a blank document with the text "Hello World"
         /// </summary>
         public static void CreateDocument()
         {
@@ -29,7 +29,7 @@ namespace OpenXmlDemo
                 WordprocessingDocument document = WordprocessingDocument.Create(fileName,
                     WordprocessingDocumentType.Document))
             {
-                var text = new Text("Hallo Welt");
+                var text = new Text("Hi Jean, My first word doc.");
                 var run = new Run(text);
                 var paragraph = new Paragraph(run);
                 var body = new Body(paragraph);

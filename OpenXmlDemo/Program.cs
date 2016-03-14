@@ -32,14 +32,14 @@ namespace OpenXmlDemo
             Console.WriteLine("Open XML SDK Demo");
             Console.WriteLine("=================");
             Console.WriteLine("");
-            Console.WriteLine("Bitte wählen Sie einen der folgenden Punkte aus:");
-            Console.WriteLine("[1]: Autoreninfo aus Datei auslesen");
-            Console.WriteLine("[2]: Neues Dokument erzeugen");
-            Console.WriteLine("[3]: Plain Text aus Dokument auslesen");
-            Console.WriteLine("[4]: Teilnehmerliste aus Vorlage 1 erzeugen");
-            Console.WriteLine("[5]: Teilnehmerliste aus Vorlage 2 erzeugen");
-            Console.WriteLine("[6]: Zertifikat erstellen");
-            Console.WriteLine("[7]: Programm beenden");
+            Console.WriteLine("Please select one of the following from:");
+            Console.WriteLine("[1]: read author info from file");
+            Console.WriteLine("[2]: Create New Document");
+            Console.WriteLine("[3]: read Plain Text from Document");
+            Console.WriteLine("[4]: generate Participant list template 1");
+            Console.WriteLine("[5]: generate Participant list template 2");
+            Console.WriteLine("[6]: creating a certificate");
+            Console.WriteLine("[7]: exit program");
         }
 
         private static void ProcessInput(string input)
